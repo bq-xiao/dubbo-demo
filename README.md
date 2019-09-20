@@ -16,7 +16,7 @@ mvn install
 ### Step3, run dubbo-spring-boot-provider
 ```
 cd dubbo-spring-boot-provider
-mvn pckage
+mvn package
 java -jar target/dubbo-spring-boot-provider-0.0.1-SNAPSHOT.jar
 ```
 
