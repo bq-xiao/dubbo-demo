@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 
 import com.example.dubbo.springboot.api.service.HelloWorldService;
 
-@Service(version = "1.0.0")
+@Service
 public class HelloWorldServiceImpl implements HelloWorldService {
 
     @Value("${dubbo.application.name}")

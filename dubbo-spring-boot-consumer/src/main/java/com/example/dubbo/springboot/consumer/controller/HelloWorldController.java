@@ -12,7 +12,7 @@ import com.example.dubbo.springboot.api.service.HelloWorldService;
 @RestController
 @RequestMapping("/sample")
 public class HelloWorldController {
-    @Reference(url = "dubbo://127.0.0.1:12345", version = "1.0.0")
+    @Reference(url = "dubbo://127.0.0.1:12345")
     private HelloWorldService helloWorldService;
 
     @GetMapping(value = "/hello/{name}")
